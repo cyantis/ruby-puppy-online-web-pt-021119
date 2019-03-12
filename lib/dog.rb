@@ -8,4 +8,8 @@ class Dog
     @@all << self
   end
 
+  self.all
+  @@all.each {|d| puts "#{d}"}
+  end  
+
 end
